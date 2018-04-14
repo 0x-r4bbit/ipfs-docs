@@ -43,7 +43,7 @@
           {{- end}}
           {{- $pages := (.Scratch.Get "pages") }}
 
-          {{- range $pages.ByTitle }}
+          {{- range $pages.ByWeight }}
             {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "level" $level "scratch" $scratch }}
           {{- end}}
         </ul>

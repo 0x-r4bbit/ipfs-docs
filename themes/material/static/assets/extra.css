@@ -1,0 +1,10 @@
+/* Temporary CSS extras while we get theming ironed out */
+
+article aside {
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 04px;
+  color: #444;
+  margin: 0 2em;
+  padding: 0.65em 1em;
+}
